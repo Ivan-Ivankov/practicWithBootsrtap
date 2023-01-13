@@ -1,0 +1,124 @@
+.container-three {
+  position: relative;
+  margin-top: 150px;
+}
+
+.cyrcle {
+  position: absolute;
+  top: -150px;
+  right: 0px;
+  z-index: 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  margin-left: 46px;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.0535402);
+  border-radius: 50%;
+}
+
+.three-text {
+  position: relative;
+}
+
+.three-text > p:nth-child(1n) {
+  margin: auto;
+  max-width: 537px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
+  text-align: center;
+  color: #001a49;
+}
+
+.three-text > p:nth-child(2n) {
+  margin-top: 20px;
+  max-width: 550px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #4f596a;
+}
+
+.three-blocks {
+  max-width: 1120px;
+  margin: 31px auto;
+  position: relative;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  height: 172px;
+  background: rgba(205, 16, 255, 0.05);
+  background: linear-gradient(
+    44deg,
+    rgba(205, 16, 255, 1) 15,
+    75%,
+    rgba(159, 6, 255, 0.05) 84,
+    63%
+  );
+  border-radius: 21px;
+  z-index: 1;
+}
+
+.text-block {
+  margin-left: 20px;
+}
+
+.head {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #001a49;
+}
+
+.down {
+  max-width: 501px;
+  margin-top: 20px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f596a;
+}
+
+.videos {
+  margin-left: 157px;
+  width: 278px;
+  height: 66px;
+  background: linear-gradient(44.11deg, #cd10ff 15.75%, #9f06ff 84.63%);
+  border-radius: 33px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.video-left::after {
+  content: "6 videos";
+  padding-right: 34px;
+}
+
+.video-right::before {
+  content: "4,5 hours";
+  padding-left: 34px;
+  border-left: 1px solid rgba(151, 151, 151, 1);
+}

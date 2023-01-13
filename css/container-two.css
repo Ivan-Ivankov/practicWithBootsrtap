@@ -1,0 +1,57 @@
+.container-two {
+  position: relative;
+  margin-top: 194px;
+}
+
+.counter {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+  max-width: 1120px;
+  border: 1px solid #e7eaeb;
+  border-radius: 21px;
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+.cyrcles {
+  position: absolute;
+  top: 20px;
+  z-index: 0;
+}
+
+.happy {
+  margin: 50px auto;
+}
+
+.lectures {
+  margin: 30px auto;
+  padding: 20px 30% 20px 30%;
+  border-left: 1px solid #e7eaeb;
+  border-right: 1px solid #e7eaeb;
+}
+
+.stars {
+  margin: 50px auto;
+}
+
+.two-num {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #001a49;
+}
+
+.two-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #4f596a;
+}
