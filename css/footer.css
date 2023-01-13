@@ -100,3 +100,7 @@ ul > li > a {
 .search > button:hover {
   cursor: pointer;
 }
+
+.sub:hover {
+  background: linear-gradient(44.11deg, #9a0fc0 15.75%, #7805be 84.63%);
+}
