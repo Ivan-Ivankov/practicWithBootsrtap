@@ -45,3 +45,14 @@ a.vi-nav-link {
   color: #ffffff;
   text-decoration: none;
 }
+
+.header-reg:hover {
+  color: #ffffff;
+  background: linear-gradient(44.11deg, #9a0fc0 15.75%, #7805be 84.63%);
+}
+
+.repeat {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}

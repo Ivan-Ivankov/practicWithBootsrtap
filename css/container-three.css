@@ -122,3 +122,8 @@
   padding-left: 34px;
   border-left: 1px solid rgba(151, 151, 151, 1);
 }
+
+.videos:hover {
+  color: #ffffff;
+  background: linear-gradient(44.11deg, #9a0fc0 15.75%, #7805be 84.63%);
+}

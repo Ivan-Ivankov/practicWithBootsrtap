@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/Favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Mulish:wght@400;600;700&display=swap"
       rel="stylesheet"
@@ -18,8 +20,27 @@
     <title>Logoipsum</title>
 </head>
 <body>
+  <header class="header center">
+    <!-- Logo and navigation menu -->
+    <div class="header-left-side center">
+      <div class="header-logo"><img src="img/Logo.svg" alt="" /></div>
+      <nav class="nav-menu">
+        <div class="header-nav-menu-item">
+          <nav class="nav justify-content-center">
+            <a
+              class="nav-link vi-nav-link active"
+              href="#"
+              aria-current="page"
+              >Course topics</a
+            >
+            <a class="nav-link vi-nav-link" href="#">What students say</a>
+          </nav>
+        </div>
+      </nav>
+    </div>
+  </header>
     <!-- Registration -->
-<div class="registration-form mt-5">
+<div class="registration-form">
     <h1 class="text-center" style="
       font-size: 60px;
       font-family: Montserrat; 
@@ -74,6 +95,7 @@
             <label for="formName">Password</label>
           </div>
         </div>
+        
 
       <!-- Кнопка -->
       <a href="index.html" class="mb-3 mx-3 py-3 btn-lg col-4" 

@@ -103,4 +103,9 @@
   .container-two {
     display: none;
   }
+  .repeat {
+    display: flex;
+
+    justify-content: start;
+  }
 }
